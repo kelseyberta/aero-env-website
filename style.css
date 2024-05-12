@@ -70,7 +70,7 @@
     width: 0.7rem;
     height: 0.7rem;
     border-radius: 50%;
-    background-color: #c29525;
+    background-color: navy;
     margin: -0.4rem 0 0 -0.4rem;
   }
   
@@ -210,7 +210,7 @@
     left: 5rem;
     width: 10rem;
     height: 4rem;
-    background-color: #e2b646;
+    background-color: navy;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,7 +306,7 @@
   .banner button {
     width: 25rem;
     height: 7rem;
-    background-color: #c29525;
+    background-color: navy;
     border: none;
     font-family: "Muli", serif;
     font-size: 2rem;
@@ -367,7 +367,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: #c29525;
+    color: navy;
     width: 0;
     overflow: hidden;
     white-space: nowrap;
@@ -401,7 +401,7 @@
   }
   
   .social-media i:hover {
-    background-color: #c29525;
+    background-color: navy;
   }
   
   .about-us {
@@ -428,7 +428,7 @@
   .underline {
     width: 12rem;
     height: 0.3rem;
-    background-color: #c29525;
+    background-color: navy;
   }
   
   .services {
@@ -439,10 +439,17 @@
     grid-template-rows: repeat(6, 6rem);
     grid-row-gap: 1rem;
   }
+  .services-list {
+    width: 100%;
+    height: 100%;
+  }
   
   .service {
     width: 100%;
     margin-bottom: 1rem;
+  }
+  .service-provided{
+    padding: 2rem;
   }
   
   .service:nth-child(1) {
@@ -480,13 +487,21 @@
     align-items: center;
     margin-bottom: 1rem;
   }
+  .service-name{
+    font-size: 3rem;
+    color: navy;
+    margin-bottom: 1rem;
+
+  }
   
   .service-header i {
     font-size: 4rem;
-    color: #4b4b4b;
+    color: navy;
     margin-right: 2rem;
   }
-  
+  .service-name i{
+    color: navy;
+  }
   .service-header h3 {
     font-family: "Baloo Da 2", serif;
     font-size: 2.6rem;
@@ -499,6 +514,12 @@
     font-family: "Josefin Slab", serif;
     font-size: 1.6rem;
     text-align: justify;
+  }
+  .services-text {
+    font-family: "Josefin Slab", serif;
+    font-size: 2rem;
+    text-align: justify;
+    font-weight: 800;
   }
   
   .about-us-img-wrapper {
@@ -601,7 +622,7 @@
   .card-info button {
     width: 10rem;
     height: 3rem;
-    background-color: #c29525;
+    background-color: navy;
     border: none;
     font-family: "Baloo Da 2", serif;
     font-size: 1.4rem;
@@ -614,7 +635,7 @@
   .contact {
     width: 100%;
     height: 100vh;
-    background-color: #272727;
+    background-color: navy;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -764,7 +785,7 @@
     bottom: 5rem;
     width: 4.5rem;
     height: 4.5rem;
-    background-color: #e2b646;
+    background-color: navy;
     display: flex;
     justify-content: center;
     align-items: center;
